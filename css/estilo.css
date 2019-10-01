@@ -1,0 +1,192 @@
+body{
+    overflow-x: hidden; 
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Orbitron', sans-serif;*/
+  font-size: 18px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color:#bdc3c7; 
+}
+.navbar-cores{
+    background:#363636;
+    padding: 30px 0px;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: none !important; 
+}
+.navbar-cores .navbar-link{
+    color: #DCDCDC;
+}
+.navbar-cores .navbar-right .navbar-link:hover{
+    color: #363636;
+    background: #5F9EA0;
+    border-radius: 3px;
+}
+/*AJEITANDO CARROUSEL*/
+@media(min-width: 1024px) {
+    .div-img-carousel, .item.active {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .carousel-inner {
+        width: 100%;
+    }
+
+    #meuSlider {
+        width: 100%;
+        height: 70%;
+    }
+    #sliderhome{
+      margin: auto;
+    }
+    .link-estilo{
+        font-family: 'Orbitron', sans-serif;
+        color:orange;
+        text-decoration:none;
+    }
+    .link-estilo:hover{
+        font-family: 'Orbitron', sans-serif;
+        color:orangered;
+        text-decoration:none;
+    }
+/*AJEITANDDO AS IMAGENS DAS REDES SOCIAIS*/
+.conf-img{
+  -webkit-filter: grayscale(100%);
+}
+.conf-img:hover{
+  -webkit-filter: none;
+}
+.left {
+  float:left;
+  margin-left:0;
+  margin-right:10px;
+  max-width: 100%;
+  height: auto;
+  }
+.right {
+  float:right;
+  margin-right:0;
+  margin-left:10px;
+  padding-bottom: -10;
+  
+  }
+
+.center {
+  float:none; 
+  display:block; 
+  margin-left:auto; 
+  margin-right:auto;
+  
+  }
+.navbar-customize{
+    color:#5F9EA0;
+    padding: 1.7px;
+    font-family: 'Orbitron', sans-serif;
+    background: #363636;
+}
+#borda-footer{
+    border-bottom: 1px solid whitesmoke;
+    
+}
+body{
+    overflow-x: hidden; 
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Orbitron', sans-serif;*/
+  font-size: 18px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color:#bdc3c7;
+}
+.navbar-cores{
+    background:#363636;
+    padding: 30px 0px;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: none !important; 
+}
+.navbar-cores .navbar-link{
+    color: #DCDCDC;
+}
+.navbar-cores .navbar-right .navbar-link:hover{
+    color: #363636;
+    background: #5F9EA0;
+    border-radius: 3px;
+}
+/*AJEITANDO CARROUSEL*/
+@media(min-width: 1024px) {
+    .div-img-carousel, .item.active {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .carousel-inner {
+        width: 100%;
+    }
+
+    #meuSlider {
+        width: 100%;
+        height: 70%;
+    }
+    #sliderhome{
+      margin: auto;
+    }
+    .link-estilo{
+        font-family: 'Orbitron', sans-serif;
+        color:orange;
+        text-decoration:none;
+    }
+    .link-estilo:hover{
+        font-family: 'Orbitron', sans-serif;
+        color:orangered;
+        text-decoration:none;
+    }
+/*AJEITANDDO AS IMAGENS DAS REDES SOCIAIS*/
+.conf-img{
+  -webkit-filter: grayscale(100%);
+}
+.conf-img:hover{
+  -webkit-filter: none;
+}
+.left {
+  float:left;
+  margin-left:0;
+  margin-right:10px;
+  margin-bottom:5px;
+  max-width: 100%;
+  height: auto;
+  }
+.right {
+  float:right;
+  margin-right:0;
+  margin-left:10px;
+  margin-bottom:5px;
+  }
+
+.center {
+  float:none; 
+  display:block; 
+  margin-left:auto; 
+  margin-right:auto;
+  
+  }
+  /*CUSTOMIZANDO AS OS PAINEIS E TABELAS*/
+  .painel-customize{
+         box-shadow: 0 0 15px -2px rgba(0,0,0,.7);  
+  }
+  .table-customize a{
+      color:black;
+  }
+  .table-customize a:hover{
+    color:#5F9EA0;
+      text-decoration:none; 
+      font-size: 16.03px;    
+  }
+ 
+  
